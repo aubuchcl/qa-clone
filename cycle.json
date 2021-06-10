@@ -6,7 +6,7 @@
       "image": {
         "name": "debug",
         "origin": {
-          "type": "dockerhub",
+          "type": "docker-hub",
           "details": {
             "target": "cycleplatform/debug:no-volume"
           }
@@ -27,7 +27,7 @@
       "image": {
         "name": "debug",
         "origin": {
-          "type": "dockerhub",
+          "type": "docker-hub",
           "details": {
             "target": "cycleplatform/debug:no-volume"
           }
@@ -48,7 +48,7 @@
       "image": {
         "name": "debug",
         "origin": {
-          "type": "dockerhub",
+          "type": "docker-hub",
           "details": {
             "target": "cycleplatform/debug:no-volume"
           }
@@ -69,7 +69,7 @@
       "image": {
         "name": "debug",
         "origin": {
-          "type": "dockerhub",
+          "type": "docker-hub",
           "details": {
             "target": "cycleplatform/debug:no-volume"
           }
@@ -90,7 +90,7 @@
       "image": {
         "name": "debug",
         "origin": {
-          "type": "dockerhub",
+          "type": "docker-hub",
           "details": {
             "target": "cycleplatform/debug:no-volume"
           }
@@ -111,7 +111,7 @@
       "image": {
         "name": "debug",
         "origin": {
-          "type": "dockerhub",
+          "type": "docker-hub",
           "details": {
             "target": "cycleplatform/debug:no-volume"
           }
@@ -132,7 +132,7 @@
       "image": {
         "name": "debug",
         "origin": {
-          "type": "dockerhub",
+          "type": "docker-hub",
           "details": {
             "target": "cycleplatform/debug:no-volume"
           }
@@ -153,7 +153,7 @@
       "image": {
         "name": "debug",
         "origin": {
-          "type": "dockerhub",
+          "type": "docker-hub",
           "details": {
             "target": "cycleplatform/debug:no-volume"
           }
@@ -174,7 +174,7 @@
       "image": {
         "name": "debug",
         "origin": {
-          "type": "dockerhub",
+          "type": "docker-hub",
           "details": {
             "target": "cycleplatform/debug:no-volume"
           }
@@ -195,7 +195,7 @@
       "image": {
         "name": "debug",
         "origin": {
-          "type": "dockerhub",
+          "type": "docker-hub",
           "details": {
             "target": "cycleplatform/debug:no-volume"
           }
