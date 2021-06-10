@@ -1,49 +1,210 @@
 {
   "version": "1.0",
   "containers": {
-    "demo": {
-      "name": "demo",
+    "one": {
+      "name": "one",
       "image": {
-        "name": "simplews",
+        "name": "debug",
         "origin": {
-          "type": "docker-file",
+          "type": "dockerhub",
           "details": {
-            "context_dir": "/",
-            "build_file": "/Dockerfile"
+            "target": "cycleplatform/debug:no-volume"
           }
         }
       },
       "config": {
         "network": {
-          "public": "enable",
-          "hostname": "simplews",
-          "ports": ["80:80"]
+          "public": "disable",
+          "hostname": "one"
         },
         "deploy": {
           "instances": 1
         }
       }
     },
-    "reach": {
-      "name": "reach",
+        "two": {
+      "name": "two",
       "image": {
-        "name": "simplews-external",
+        "name": "debug",
         "origin": {
-          "type": "docker-file",
+          "type": "dockerhub",
           "details": {
-            "repo": {
-              "url": "https://github.com/aubuchcl/build-dir-two.git"
-            },
-            "context_dir": "/",
-            "build_file": "/Dockerfile"
+            "target": "cycleplatform/debug:no-volume"
           }
         }
       },
       "config": {
         "network": {
-          "public": "enable",
-          "hostname": "simplews",
-          "ports": ["80:80"]
+          "public": "disable",
+          "hostname": "two"
+        },
+        "deploy": {
+          "instances": 1
+        }
+      }
+    },
+        "three": {
+      "name": "three",
+      "image": {
+        "name": "debug",
+        "origin": {
+          "type": "dockerhub",
+          "details": {
+            "target": "cycleplatform/debug:no-volume"
+          }
+        }
+      },
+      "config": {
+        "network": {
+          "public": "disable",
+          "hostname": "three"
+        },
+        "deploy": {
+          "instances": 1
+        }
+      }
+    },
+        "four": {
+      "name": "four",
+      "image": {
+        "name": "debug",
+        "origin": {
+          "type": "dockerhub",
+          "details": {
+            "target": "cycleplatform/debug:no-volume"
+          }
+        }
+      },
+      "config": {
+        "network": {
+          "public": "disable",
+          "hostname": "four"
+        },
+        "deploy": {
+          "instances": 1
+        }
+      }
+    },
+        "five": {
+      "name": "five",
+      "image": {
+        "name": "debug",
+        "origin": {
+          "type": "dockerhub",
+          "details": {
+            "target": "cycleplatform/debug:no-volume"
+          }
+        }
+      },
+      "config": {
+        "network": {
+          "public": "disable",
+          "hostname": "five"
+        },
+        "deploy": {
+          "instances": 1
+        }
+      }
+    },
+        "six": {
+      "name": "six",
+      "image": {
+        "name": "debug",
+        "origin": {
+          "type": "dockerhub",
+          "details": {
+            "target": "cycleplatform/debug:no-volume"
+          }
+        }
+      },
+      "config": {
+        "network": {
+          "public": "disable",
+          "hostname": "six"
+        },
+        "deploy": {
+          "instances": 1
+        }
+      }
+    },
+        "seven": {
+      "name": "seven",
+      "image": {
+        "name": "debug",
+        "origin": {
+          "type": "dockerhub",
+          "details": {
+            "target": "cycleplatform/debug:no-volume"
+          }
+        }
+      },
+      "config": {
+        "network": {
+          "public": "disable",
+          "hostname": "seven"
+        },
+        "deploy": {
+          "instances": 1
+        }
+      }
+    },
+        "eight": {
+      "name": "eight",
+      "image": {
+        "name": "debug",
+        "origin": {
+          "type": "dockerhub",
+          "details": {
+            "target": "cycleplatform/debug:no-volume"
+          }
+        }
+      },
+      "config": {
+        "network": {
+          "public": "disable",
+          "hostname": "eight"
+        },
+        "deploy": {
+          "instances": 1
+        }
+      }
+    },
+        "nine": {
+      "name": "nine",
+      "image": {
+        "name": "debug",
+        "origin": {
+          "type": "dockerhub",
+          "details": {
+            "target": "cycleplatform/debug:no-volume"
+          }
+        }
+      },
+      "config": {
+        "network": {
+          "public": "disable",
+          "hostname": "nine"
+        },
+        "deploy": {
+          "instances": 1
+        }
+      }
+    },
+        "ten": {
+      "name": "ten",
+      "image": {
+        "name": "debug",
+        "origin": {
+          "type": "dockerhub",
+          "details": {
+            "target": "cycleplatform/debug:no-volume"
+          }
+        }
+      },
+      "config": {
+        "network": {
+          "public": "disable",
+          "hostname": "ten"
         },
         "deploy": {
           "instances": 1
